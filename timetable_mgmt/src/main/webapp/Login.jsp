@@ -22,8 +22,8 @@
 	</head>
 	
 	<body>
-	
 		<div id="div_login" >	
+			
 			<h3 id="title_form">TimeTable Management</h3><br>
 			<form method="POST" action="login_check" id="login" >
 				 <input type="text" name="u_name" class="form-control" placeholder="Username" required><br>

@@ -14,7 +14,7 @@
 		<a href="admin_timetable.jsp"><button>Go back to TimeTable Management Area!</button></a>
 		<h3>Subject Panel</h3><br>
 		
-		<a href="addorViewsub.jsp"><button>View Subjects</button></a><br>
+		<a href="addorViewsub.jsp"><button>View Subjects</button></a><br><br>
 		<a href="addSubjects.jsp"><button>Add Subjects</button></a>
 				
 	</body>

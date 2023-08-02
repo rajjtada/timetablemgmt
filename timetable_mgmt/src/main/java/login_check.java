@@ -2,6 +2,7 @@
 
 import java.io.IOException;
 
+
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -35,6 +36,8 @@ public class login_check extends HttpServlet {
 		response.setContentType("text/html");
 		String user_name = request.getParameter("u_name");
 		String pass = request.getParameter("pass");
+		
+		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost/timetablemgmt","root","");
